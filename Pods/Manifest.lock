@@ -1,0 +1,16 @@
+PODS:
+  - Cartography (0.6.0)
+  - Dropper (2.2)
+  - SwiftHTTP (1.0.3)
+
+DEPENDENCIES:
+  - Cartography (~> 0.6.0)
+  - Dropper
+  - SwiftHTTP (~> 1.0.3)
+
+SPEC CHECKSUMS:
+  Cartography: 70af183a248547694a8cfaa6b989cb7e04589985
+  Dropper: 0477b3519e971b1f6bf485ae545cdec7f5fbe281
+  SwiftHTTP: fface018ab365bfb49fa3dca9fdfe77cafccde8b
+
+COCOAPODS: 0.39.0

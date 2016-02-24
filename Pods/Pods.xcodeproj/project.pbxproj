@@ -1,0 +1,1019 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0729DED1737DCDB309394E0B59393F37 /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87260646BD6F949A864807146AD024FA /* Dimension.swift */; };
+		0ED3887D6781784875E18A4B0CF3ADF3 /* StatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1866C710163EAD068D008AACF4247056 /* StatusCode.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2057FF930EF0F28E7AD548BF23BE78EE /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989D480972FC88148631896B0F2F9FDB /* Edge.swift */; };
+		24850E3A1D68BB273AF721E00092748E /* DropperCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC791C4DC8DEDD2CD9A2B8A3B7A551E8 /* DropperCell.swift */; };
+		28515F6FFAA0E2F9591A862D532F33AC /* Compound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC79A039EB583FF4BCC74BB2482160D /* Compound.swift */; };
+		33AB15A758B8D103D5B802CBDD839F7F /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F66D50D263E5ED4820D4525F47617F /* Request.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		369CA2AACEED2517C99D77D7700DFCEA /* Distribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B56616F6D799EFC772B8CB48AE3531 /* Distribute.swift */; };
+		379CC77BF02DB5E1517A1EEB93B3F833 /* Dropper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E570649EBAE9E4AA74420EA2320B8B /* Dropper.swift */; };
+		3F5F48BCD46CF46BDA3A38408654C7FD /* Dropper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CB39FD164739FF170E0DFE7E7FE73D /* Dropper-dummy.m */; };
+		452C09D0CAC1F8286ABA1CE076033B23 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42CF0D6B2E7221419519CA6A8C8511A /* Context.swift */; };
+		48ADE3FB3F30FCA5893083351449DA98 /* ViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E337B81EA2C600443326BDAAFA9EEB79 /* ViewUtils.swift */; };
+		49F4DB8F4C7CCAF386E6928A7279EADD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		5044CA9F7CCBB02F3C294106022FCF9F /* Edges.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7172B6DF0960C5A2479C419C4F9F569 /* Edges.swift */; };
+		584B68A7069844742AEF67ED9311FF50 /* Align.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1EB99EC2FCC8B2F03745EBF653DB72 /* Align.swift */; };
+		68756B09C7B36B22283BBADB860B6AE0 /* SwiftHTTP-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CD24D5B06AB5D07F57A7B010CCCD09 /* SwiftHTTP-dummy.m */; };
+		68868EA024E3DE8F8759C6AFB1BAA1F1 /* SwiftHTTP-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A0E5C43C70840B2824124D200590F4F /* SwiftHTTP-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D581015FD5222D68354E0DC30695D9F /* Dropper.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2733D45B877F77118CF6122A1DA0752D /* Dropper.bundle */; };
+		7CD04D81B5ED213A105DFC517187EB87 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31642B5E7D9547433DC70045F802FE6D /* Expression.swift */; };
+		8378B61D28075525380201114F6E4582 /* LayoutProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B445DD1B5C72EE9B7EBA546DD603C24B /* LayoutProxy.swift */; };
+		910911C0ABFD1F3FE2FBB173029DCE80 /* HTTPSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05DEDC61449B20BE58E585A94C47791 /* HTTPSecurity.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		94FA81E5AAD99FC80DC4123F16239B36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		9B72E8673EC2902584353DD9FBFD58F5 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */; };
+		B186888C7CD8342B4ADCF6D673CFD566 /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23E3B878363F72D1E874E46EB62FA7F /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60FF049E14B38C30BD64C65418C1113 /* Size.swift */; };
+		B36D44DBF54713137002FD16CDD6E03C /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33D8D409BFF8959CD5C405180AAA34B /* Operation.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B7A70212AF895FD258513902E354B659 /* DropperExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA426001AA7C84D8D8198063B0C2AC8 /* DropperExtensions.swift */; };
+		B90891688A088BC37455234028C2E993 /* Cartography-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2631D2C0AA769FA7DA5543D7E32940F9 /* Cartography-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE2FC20F5EDBAE658F688978AB12C279 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A1AF9E4F51C0225E5B8D13E3913AAD /* Extensions.swift */; };
+		C3649839064E53A4BF767D2EF29651EF /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BEAB9EBD7C6D9F0C03A97A36E0C839 /* Priority.swift */; };
+		C4E3B85163572DE81225EB41EA552211 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		C6606B2FA2CD6ABE2185267D1127D0D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		D2C9087C6581055C25D5559F934AF65B /* Constrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14589E2C2D921679631FD502A2B47FD /* Constrain.swift */; };
+		D2D3995E7447716EB5AA3C6B5632A7C2 /* Dropper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D93E7DFE820A042EA26AFD8DA11CB51 /* Dropper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3C01862D88692FA2E85A2D84345982B /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C56D9A5E919D1AC6B473389A63A90E /* Point.swift */; };
+		D56BD3B0ACF32790F3EF43EA3DB08016 /* Cartography-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6886717ED44583D7B7F24F794E07EF68 /* Cartography-dummy.m */; };
+		E1451AA498D7B41C4E049F5D9027B4A7 /* ConstraintGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA8B9F3466858A4C8433DBA04F6DDA7 /* ConstraintGroup.swift */; };
+		EB031CF000B35191C39D752C5577B126 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28EB8962D8A714E039AF64A8E4BB0C4 /* Upload.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB9E85B0CE6A53DCBDE040A716B5DBF8 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B414306CE20ECF9C811B2807BD2387 /* Property.swift */; };
+		EE94E3F06DA2F096BA43F0679567DC4B /* Coefficients.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6187E198BEE970FF3B1D0D1A484BDBE /* Coefficients.swift */; };
+		F469BC9885602957FCB73DD39B5B92B0 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5D1E16485AC490B493D2FC254511C9 /* Constraint.swift */; };
+		F95ADCA0B85C6C0640372D3EFBBF1AD6 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA678496ADF4B45DD84D3758D3E198C /* View.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06261D073D3CA90F78C9D996F7DE6EE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0A50901DF30B3AC81620ADB7FC89700;
+			remoteInfo = Dropper;
+		};
+		812669FCA06D7EFD72C5EDF87B02DDA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C618AE6A580F7BEEDEE052B9E259F4E;
+			remoteInfo = SwiftHTTP;
+		};
+		96CEB192F2F327DAD8831DAB5FFAE978 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31EED6CB33E01074F58C2A9BD0D6AAC8;
+			remoteInfo = "Dropper-Dropper";
+		};
+		B2C3BE0BBC467D1760F1327CC58D5CEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3A04698AAE4D6124C20602D622956E5;
+			remoteInfo = Cartography;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09F66D50D263E5ED4820D4525F47617F /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		156EBA7A229EC5262AD2C9EF245ADCEC /* Dropper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Dropper.xcconfig; sourceTree = "<group>"; };
+		1866C710163EAD068D008AACF4247056 /* StatusCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StatusCode.swift; path = Source/StatusCode.swift; sourceTree = "<group>"; };
+		22BBBF4A4340360AFC43860862C9CFBD /* Cartography.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cartography.xcconfig; sourceTree = "<group>"; };
+		2631D2C0AA769FA7DA5543D7E32940F9 /* Cartography-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cartography-umbrella.h"; sourceTree = "<group>"; };
+		26CB39FD164739FF170E0DFE7E7FE73D /* Dropper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Dropper-dummy.m"; sourceTree = "<group>"; };
+		2733D45B877F77118CF6122A1DA0752D /* Dropper.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dropper.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
+		2CBC885B9E95A8D2CE93EB5505FDEC83 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FBB4466A160D1FF889E8EC3731B0A28 /* SwiftHTTP.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftHTTP.modulemap; sourceTree = "<group>"; };
+		30C4804F4CAA3A3DBE0D8246582FAA1B /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31642B5E7D9547433DC70045F802FE6D /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Cartography/Expression.swift; sourceTree = "<group>"; };
+		3B1EB99EC2FCC8B2F03745EBF653DB72 /* Align.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Align.swift; path = Cartography/Align.swift; sourceTree = "<group>"; };
+		3BC79A039EB583FF4BCC74BB2482160D /* Compound.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compound.swift; path = Cartography/Compound.swift; sourceTree = "<group>"; };
+		3D93E7DFE820A042EA26AFD8DA11CB51 /* Dropper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Dropper-umbrella.h"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3EA8B9F3466858A4C8433DBA04F6DDA7 /* ConstraintGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintGroup.swift; path = Cartography/ConstraintGroup.swift; sourceTree = "<group>"; };
+		473746574BCF0BA9CAB4E83740F5171F /* Dropper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Dropper.modulemap; sourceTree = "<group>"; };
+		5A0E5C43C70840B2824124D200590F4F /* SwiftHTTP-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftHTTP-umbrella.h"; sourceTree = "<group>"; };
+		61B414306CE20ECF9C811B2807BD2387 /* Property.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Property.swift; path = Cartography/Property.swift; sourceTree = "<group>"; };
+		6886717ED44583D7B7F24F794E07EF68 /* Cartography-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cartography-dummy.m"; sourceTree = "<group>"; };
+		79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
+		81CE39FEBE258C581A216221FB8B1862 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86E570649EBAE9E4AA74420EA2320B8B /* Dropper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dropper.swift; path = Pod/Classes/Dropper.swift; sourceTree = "<group>"; };
+		87260646BD6F949A864807146AD024FA /* Dimension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dimension.swift; path = Cartography/Dimension.swift; sourceTree = "<group>"; };
+		878DDFB6BB0F403091731F949085E0A1 /* Cartography.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cartography.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		87C56D9A5E919D1AC6B473389A63A90E /* Point.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Point.swift; path = Cartography/Point.swift; sourceTree = "<group>"; };
+		894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		8B130252DB0B1A96AE4E8C9D32DB4961 /* SwiftHTTP-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftHTTP-prefix.pch"; sourceTree = "<group>"; };
+		92B56616F6D799EFC772B8CB48AE3531 /* Distribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Distribute.swift; path = Cartography/Distribute.swift; sourceTree = "<group>"; };
+		977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		989D480972FC88148631896B0F2F9FDB /* Edge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edge.swift; path = Cartography/Edge.swift; sourceTree = "<group>"; };
+		9A87F002A2B6BC64CCFF4811AF3D463D /* SwiftHTTP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftHTTP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E5D1E16485AC490B493D2FC254511C9 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Cartography/Constraint.swift; sourceTree = "<group>"; };
+		9F5FD99C86602AF00568DFC0C273F42C /* Cartography-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cartography-prefix.pch"; sourceTree = "<group>"; };
+		A33D8D409BFF8959CD5C405180AAA34B /* Operation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operation.swift; path = Source/Operation.swift; sourceTree = "<group>"; };
+		ABA678496ADF4B45DD84D3758D3E198C /* View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = View.swift; path = Cartography/View.swift; sourceTree = "<group>"; };
+		AC791C4DC8DEDD2CD9A2B8A3B7A551E8 /* DropperCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropperCell.swift; path = Pod/Classes/DropperCell.swift; sourceTree = "<group>"; };
+		B1A1AF9E4F51C0225E5B8D13E3913AAD /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Cartography/Extensions.swift; sourceTree = "<group>"; };
+		B28EB8962D8A714E039AF64A8E4BB0C4 /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
+		B445DD1B5C72EE9B7EBA546DD603C24B /* LayoutProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutProxy.swift; path = Cartography/LayoutProxy.swift; sourceTree = "<group>"; };
+		B5CD24D5B06AB5D07F57A7B010CCCD09 /* SwiftHTTP-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftHTTP-dummy.m"; sourceTree = "<group>"; };
+		B6187E198BEE970FF3B1D0D1A484BDBE /* Coefficients.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coefficients.swift; path = Cartography/Coefficients.swift; sourceTree = "<group>"; };
+		B7172B6DF0960C5A2479C419C4F9F569 /* Edges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edges.swift; path = Cartography/Edges.swift; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C42CF0D6B2E7221419519CA6A8C8511A /* Context.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Context.swift; path = Cartography/Context.swift; sourceTree = "<group>"; };
+		C51622797CE1A6D85C35FA8F30D5F024 /* Dropper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Dropper-prefix.pch"; sourceTree = "<group>"; };
+		CAA426001AA7C84D8D8198063B0C2AC8 /* DropperExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropperExtensions.swift; path = Pod/Classes/DropperExtensions.swift; sourceTree = "<group>"; };
+		CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		CDD2866E1BDAEEA1DEA92C640EDF8DB1 /* SwiftHTTP.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftHTTP.xcconfig; sourceTree = "<group>"; };
+		CE95B1C14EEE40DC0A61F451CF54259B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D05DEDC61449B20BE58E585A94C47791 /* HTTPSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPSecurity.swift; path = Source/HTTPSecurity.swift; sourceTree = "<group>"; };
+		D60FF049E14B38C30BD64C65418C1113 /* Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Size.swift; path = Cartography/Size.swift; sourceTree = "<group>"; };
+		D66E54C08CFBE8E21CB0DB5F33323D8D /* Cartography.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Cartography.modulemap; sourceTree = "<group>"; };
+		D74B72F748F6A3C2637F24E0C7DD293B /* Dropper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dropper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		E14589E2C2D921679631FD502A2B47FD /* Constrain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constrain.swift; path = Cartography/Constrain.swift; sourceTree = "<group>"; };
+		E337B81EA2C600443326BDAAFA9EEB79 /* ViewUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewUtils.swift; path = Cartography/ViewUtils.swift; sourceTree = "<group>"; };
+		E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9BEAB9EBD7C6D9F0C03A97A36E0C839 /* Priority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Priority.swift; path = Cartography/Priority.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08FFF03D76A2C6504225554CED841240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F4DB8F4C7CCAF386E6928A7279EADD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A172C0165B40702C0EAECA96AB5DBBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		429A34DF3BBD7321C9C7D6FBF5F1E3FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94FA81E5AAD99FC80DC4123F16239B36 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657B53A0BFE40D1F980443C90DF368D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E3B85163572DE81225EB41EA552211 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		892D24E0D6F9031FB3874CAE939F6DA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6606B2FA2CD6ABE2185267D1127D0D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55056E8C983B02F02B2D4C8256BB19AF /* SwiftHTTP */ = {
+			isa = PBXGroup;
+			children = (
+				D05DEDC61449B20BE58E585A94C47791 /* HTTPSecurity.swift */,
+				A33D8D409BFF8959CD5C405180AAA34B /* Operation.swift */,
+				09F66D50D263E5ED4820D4525F47617F /* Request.swift */,
+				1866C710163EAD068D008AACF4247056 /* StatusCode.swift */,
+				B28EB8962D8A714E039AF64A8E4BB0C4 /* Upload.swift */,
+				FD01061D4F0A95DF572101C7E3377C50 /* Support Files */,
+			);
+			path = SwiftHTTP;
+			sourceTree = "<group>";
+		};
+		56F2D0CCB2FF1D3B4C4C522F6775C910 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D66E54C08CFBE8E21CB0DB5F33323D8D /* Cartography.modulemap */,
+				22BBBF4A4340360AFC43860862C9CFBD /* Cartography.xcconfig */,
+				6886717ED44583D7B7F24F794E07EF68 /* Cartography-dummy.m */,
+				9F5FD99C86602AF00568DFC0C273F42C /* Cartography-prefix.pch */,
+				2631D2C0AA769FA7DA5543D7E32940F9 /* Cartography-umbrella.h */,
+				2CBC885B9E95A8D2CE93EB5505FDEC83 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Cartography";
+			sourceTree = "<group>";
+		};
+		75D98FF52E597A11900E131B6C4E1ADA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */,
+				79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */,
+				D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */,
+				87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */,
+				894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */,
+				E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */,
+				CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */,
+				2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */,
+				977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */,
+				DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				92087BAF68777934B554270D6839D51E /* Pods */,
+				EDD0D43ED2E8BC443C69B47B4DC9EEDC /* Products */,
+				B7B80995527643776607AFFA75B91E24 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		815204FDE2EA4C748A2DE082CC7101BE /* Cartography */ = {
+			isa = PBXGroup;
+			children = (
+				3B1EB99EC2FCC8B2F03745EBF653DB72 /* Align.swift */,
+				B6187E198BEE970FF3B1D0D1A484BDBE /* Coefficients.swift */,
+				3BC79A039EB583FF4BCC74BB2482160D /* Compound.swift */,
+				E14589E2C2D921679631FD502A2B47FD /* Constrain.swift */,
+				9E5D1E16485AC490B493D2FC254511C9 /* Constraint.swift */,
+				3EA8B9F3466858A4C8433DBA04F6DDA7 /* ConstraintGroup.swift */,
+				C42CF0D6B2E7221419519CA6A8C8511A /* Context.swift */,
+				87260646BD6F949A864807146AD024FA /* Dimension.swift */,
+				92B56616F6D799EFC772B8CB48AE3531 /* Distribute.swift */,
+				989D480972FC88148631896B0F2F9FDB /* Edge.swift */,
+				B7172B6DF0960C5A2479C419C4F9F569 /* Edges.swift */,
+				31642B5E7D9547433DC70045F802FE6D /* Expression.swift */,
+				B1A1AF9E4F51C0225E5B8D13E3913AAD /* Extensions.swift */,
+				B445DD1B5C72EE9B7EBA546DD603C24B /* LayoutProxy.swift */,
+				87C56D9A5E919D1AC6B473389A63A90E /* Point.swift */,
+				E9BEAB9EBD7C6D9F0C03A97A36E0C839 /* Priority.swift */,
+				61B414306CE20ECF9C811B2807BD2387 /* Property.swift */,
+				D60FF049E14B38C30BD64C65418C1113 /* Size.swift */,
+				ABA678496ADF4B45DD84D3758D3E198C /* View.swift */,
+				E337B81EA2C600443326BDAAFA9EEB79 /* ViewUtils.swift */,
+				56F2D0CCB2FF1D3B4C4C522F6775C910 /* Support Files */,
+			);
+			path = Cartography;
+			sourceTree = "<group>";
+		};
+		83A5B5CFABC86A41970B0D96AA20A999 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				473746574BCF0BA9CAB4E83740F5171F /* Dropper.modulemap */,
+				156EBA7A229EC5262AD2C9EF245ADCEC /* Dropper.xcconfig */,
+				26CB39FD164739FF170E0DFE7E7FE73D /* Dropper-dummy.m */,
+				C51622797CE1A6D85C35FA8F30D5F024 /* Dropper-prefix.pch */,
+				3D93E7DFE820A042EA26AFD8DA11CB51 /* Dropper-umbrella.h */,
+				CE95B1C14EEE40DC0A61F451CF54259B /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Dropper";
+			sourceTree = "<group>";
+		};
+		92087BAF68777934B554270D6839D51E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				815204FDE2EA4C748A2DE082CC7101BE /* Cartography */,
+				FF0BFE98C58F37B01D7B5B3484947882 /* Dropper */,
+				55056E8C983B02F02B2D4C8256BB19AF /* SwiftHTTP */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B7B80995527643776607AFFA75B91E24 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				75D98FF52E597A11900E131B6C4E1ADA /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EDD0D43ED2E8BC443C69B47B4DC9EEDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				878DDFB6BB0F403091731F949085E0A1 /* Cartography.framework */,
+				2733D45B877F77118CF6122A1DA0752D /* Dropper.bundle */,
+				D74B72F748F6A3C2637F24E0C7DD293B /* Dropper.framework */,
+				30C4804F4CAA3A3DBE0D8246582FAA1B /* Pods.framework */,
+				9A87F002A2B6BC64CCFF4811AF3D463D /* SwiftHTTP.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD01061D4F0A95DF572101C7E3377C50 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				81CE39FEBE258C581A216221FB8B1862 /* Info.plist */,
+				2FBB4466A160D1FF889E8EC3731B0A28 /* SwiftHTTP.modulemap */,
+				CDD2866E1BDAEEA1DEA92C640EDF8DB1 /* SwiftHTTP.xcconfig */,
+				B5CD24D5B06AB5D07F57A7B010CCCD09 /* SwiftHTTP-dummy.m */,
+				8B130252DB0B1A96AE4E8C9D32DB4961 /* SwiftHTTP-prefix.pch */,
+				5A0E5C43C70840B2824124D200590F4F /* SwiftHTTP-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftHTTP";
+			sourceTree = "<group>";
+		};
+		FF0BFE98C58F37B01D7B5B3484947882 /* Dropper */ = {
+			isa = PBXGroup;
+			children = (
+				86E570649EBAE9E4AA74420EA2320B8B /* Dropper.swift */,
+				AC791C4DC8DEDD2CD9A2B8A3B7A551E8 /* DropperCell.swift */,
+				CAA426001AA7C84D8D8198063B0C2AC8 /* DropperExtensions.swift */,
+				83A5B5CFABC86A41970B0D96AA20A999 /* Support Files */,
+			);
+			path = Dropper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		514705BF944036B79FA99816C564643C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90891688A088BC37455234028C2E993 /* Cartography-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74707952DCFD96FBBB9DB528BF8CF1C5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D3995E7447716EB5AA3C6B5632A7C2 /* Dropper-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88A44272690A306FA9F7D1838FD1DE18 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B186888C7CD8342B4ADCF6D673CFD566 /* Pods-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C59715213F1CA72015426A345CB021D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68868EA024E3DE8F8759C6AFB1BAA1F1 /* SwiftHTTP-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		31EED6CB33E01074F58C2A9BD0D6AAC8 /* Dropper-Dropper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A0FF2226C451643886287894E65C20 /* Build configuration list for PBXNativeTarget "Dropper-Dropper" */;
+			buildPhases = (
+				5FFEAACA02AA4930D4616A074AF369B3 /* Sources */,
+				2A172C0165B40702C0EAECA96AB5DBBB /* Frameworks */,
+				0697DCB008DA0421C8F939F63FA28D25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dropper-Dropper";
+			productName = "Dropper-Dropper";
+			productReference = 2733D45B877F77118CF6122A1DA0752D /* Dropper.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8C618AE6A580F7BEEDEE052B9E259F4E /* SwiftHTTP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4AE9EFE89FAA1E84B0BD2945CA45A56 /* Build configuration list for PBXNativeTarget "SwiftHTTP" */;
+			buildPhases = (
+				28F8C918F41A241A3D81DD57DCB0278A /* Sources */,
+				892D24E0D6F9031FB3874CAE939F6DA3 /* Frameworks */,
+				C59715213F1CA72015426A345CB021D2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftHTTP;
+			productName = SwiftHTTP;
+			productReference = 9A87F002A2B6BC64CCFF4811AF3D463D /* SwiftHTTP.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A0A50901DF30B3AC81620ADB7FC89700 /* Dropper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17C4C60EAE97A882A4D51A622E400C1E /* Build configuration list for PBXNativeTarget "Dropper" */;
+			buildPhases = (
+				B6CFFE11DF809497D7E92415EFB9EB8B /* Sources */,
+				08FFF03D76A2C6504225554CED841240 /* Frameworks */,
+				C064D98A98014F28AF19594F283A41D0 /* Resources */,
+				74707952DCFD96FBBB9DB528BF8CF1C5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6976FF5A8EE34F8BC0468910A776A269 /* PBXTargetDependency */,
+			);
+			name = Dropper;
+			productName = Dropper;
+			productReference = D74B72F748F6A3C2637F24E0C7DD293B /* Dropper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C3A04698AAE4D6124C20602D622956E5 /* Cartography */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B22DC939D187391042315573DBEE7623 /* Build configuration list for PBXNativeTarget "Cartography" */;
+			buildPhases = (
+				B962ED42E882856B9D168260BB18AE95 /* Sources */,
+				429A34DF3BBD7321C9C7D6FBF5F1E3FB /* Frameworks */,
+				514705BF944036B79FA99816C564643C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cartography;
+			productName = Cartography;
+			productReference = 878DDFB6BB0F403091731F949085E0A1 /* Cartography.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DB5A7E615DF89277795B4C251943300F /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69BD3AEC9E5353AED6E24CFC50B8F15 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				FFE59EA931A2D606E2DE972DAB9ABDF7 /* Sources */,
+				657B53A0BFE40D1F980443C90DF368D3 /* Frameworks */,
+				88A44272690A306FA9F7D1838FD1DE18 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76D2FAA1E91320D84F8A4A38E29391D7 /* PBXTargetDependency */,
+				C6B7675D6A3D9D08E5902FAD9ACDF37C /* PBXTargetDependency */,
+				9943039260578906D9AA01AD7FF7BC1E /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 30C4804F4CAA3A3DBE0D8246582FAA1B /* Pods.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EDD0D43ED2E8BC443C69B47B4DC9EEDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3A04698AAE4D6124C20602D622956E5 /* Cartography */,
+				A0A50901DF30B3AC81620ADB7FC89700 /* Dropper */,
+				31EED6CB33E01074F58C2A9BD0D6AAC8 /* Dropper-Dropper */,
+				DB5A7E615DF89277795B4C251943300F /* Pods */,
+				8C618AE6A580F7BEEDEE052B9E259F4E /* SwiftHTTP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0697DCB008DA0421C8F939F63FA28D25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C064D98A98014F28AF19594F283A41D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D581015FD5222D68354E0DC30695D9F /* Dropper.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28F8C918F41A241A3D81DD57DCB0278A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				910911C0ABFD1F3FE2FBB173029DCE80 /* HTTPSecurity.swift in Sources */,
+				B36D44DBF54713137002FD16CDD6E03C /* Operation.swift in Sources */,
+				33AB15A758B8D103D5B802CBDD839F7F /* Request.swift in Sources */,
+				0ED3887D6781784875E18A4B0CF3ADF3 /* StatusCode.swift in Sources */,
+				68756B09C7B36B22283BBADB860B6AE0 /* SwiftHTTP-dummy.m in Sources */,
+				EB031CF000B35191C39D752C5577B126 /* Upload.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FFEAACA02AA4930D4616A074AF369B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6CFFE11DF809497D7E92415EFB9EB8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F5F48BCD46CF46BDA3A38408654C7FD /* Dropper-dummy.m in Sources */,
+				379CC77BF02DB5E1517A1EEB93B3F833 /* Dropper.swift in Sources */,
+				24850E3A1D68BB273AF721E00092748E /* DropperCell.swift in Sources */,
+				B7A70212AF895FD258513902E354B659 /* DropperExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B962ED42E882856B9D168260BB18AE95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584B68A7069844742AEF67ED9311FF50 /* Align.swift in Sources */,
+				D56BD3B0ACF32790F3EF43EA3DB08016 /* Cartography-dummy.m in Sources */,
+				EE94E3F06DA2F096BA43F0679567DC4B /* Coefficients.swift in Sources */,
+				28515F6FFAA0E2F9591A862D532F33AC /* Compound.swift in Sources */,
+				D2C9087C6581055C25D5559F934AF65B /* Constrain.swift in Sources */,
+				F469BC9885602957FCB73DD39B5B92B0 /* Constraint.swift in Sources */,
+				E1451AA498D7B41C4E049F5D9027B4A7 /* ConstraintGroup.swift in Sources */,
+				452C09D0CAC1F8286ABA1CE076033B23 /* Context.swift in Sources */,
+				0729DED1737DCDB309394E0B59393F37 /* Dimension.swift in Sources */,
+				369CA2AACEED2517C99D77D7700DFCEA /* Distribute.swift in Sources */,
+				2057FF930EF0F28E7AD548BF23BE78EE /* Edge.swift in Sources */,
+				5044CA9F7CCBB02F3C294106022FCF9F /* Edges.swift in Sources */,
+				7CD04D81B5ED213A105DFC517187EB87 /* Expression.swift in Sources */,
+				BE2FC20F5EDBAE658F688978AB12C279 /* Extensions.swift in Sources */,
+				8378B61D28075525380201114F6E4582 /* LayoutProxy.swift in Sources */,
+				D3C01862D88692FA2E85A2D84345982B /* Point.swift in Sources */,
+				C3649839064E53A4BF767D2EF29651EF /* Priority.swift in Sources */,
+				EB9E85B0CE6A53DCBDE040A716B5DBF8 /* Property.swift in Sources */,
+				B23E3B878363F72D1E874E46EB62FA7F /* Size.swift in Sources */,
+				F95ADCA0B85C6C0640372D3EFBBF1AD6 /* View.swift in Sources */,
+				48ADE3FB3F30FCA5893083351449DA98 /* ViewUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE59EA931A2D606E2DE972DAB9ABDF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B72E8673EC2902584353DD9FBFD58F5 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6976FF5A8EE34F8BC0468910A776A269 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Dropper-Dropper";
+			target = 31EED6CB33E01074F58C2A9BD0D6AAC8 /* Dropper-Dropper */;
+			targetProxy = 96CEB192F2F327DAD8831DAB5FFAE978 /* PBXContainerItemProxy */;
+		};
+		76D2FAA1E91320D84F8A4A38E29391D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Cartography;
+			target = C3A04698AAE4D6124C20602D622956E5 /* Cartography */;
+			targetProxy = B2C3BE0BBC467D1760F1327CC58D5CEC /* PBXContainerItemProxy */;
+		};
+		9943039260578906D9AA01AD7FF7BC1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftHTTP;
+			target = 8C618AE6A580F7BEEDEE052B9E259F4E /* SwiftHTTP */;
+			targetProxy = 812669FCA06D7EFD72C5EDF87B02DDA2 /* PBXContainerItemProxy */;
+		};
+		C6B7675D6A3D9D08E5902FAD9ACDF37C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Dropper;
+			target = A0A50901DF30B3AC81620ADB7FC89700 /* Dropper */;
+			targetProxy = 06261D073D3CA90F78C9D996F7DE6EE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		117AC46C778E25CB81015F37BD56E8FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 156EBA7A229EC5262AD2C9EF245ADCEC /* Dropper.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Dropper/Dropper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Dropper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Dropper/Dropper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Dropper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2A4875CCC15711F355328D4D36BB210F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22BBBF4A4340360AFC43860862C9CFBD /* Cartography.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Cartography/Cartography-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cartography/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Cartography/Cartography.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Cartography;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		399D09ECBDD3E2198B1B4BD17FBC8DBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDD2866E1BDAEEA1DEA92C640EDF8DB1 /* SwiftHTTP.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftHTTP/SwiftHTTP-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftHTTP/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftHTTP/SwiftHTTP.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftHTTP;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4997AA69BC9F578DE5383B6CE3FCAEBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7909E26EDA6A577DA448BC0718C19E3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 156EBA7A229EC5262AD2C9EF245ADCEC /* Dropper.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = Dropper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		9768FD27A4E2D1352ED646F0C41F0C60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22BBBF4A4340360AFC43860862C9CFBD /* Cartography.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Cartography/Cartography-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cartography/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Cartography/Cartography.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Cartography;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AF590F864BE9B84F3D6B0073D061F270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 156EBA7A229EC5262AD2C9EF245ADCEC /* Dropper.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Dropper/Dropper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Dropper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Dropper/Dropper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Dropper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C074F63C9EE7CB4D8C618390A32CEC35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C3E75AE7106878A9460DA88802C93736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDD2866E1BDAEEA1DEA92C640EDF8DB1 /* SwiftHTTP.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftHTTP/SwiftHTTP-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftHTTP/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftHTTP/SwiftHTTP.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftHTTP;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D1D777E642911403AD15317DFEA5FCF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DE83FC1E606AC6A5CE2487948A11E975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 156EBA7A229EC5262AD2C9EF245ADCEC /* Dropper.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = Dropper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E43846B588E1892F3093F3B7082B6DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00A0FF2226C451643886287894E65C20 /* Build configuration list for PBXNativeTarget "Dropper-Dropper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE83FC1E606AC6A5CE2487948A11E975 /* Debug */,
+				7909E26EDA6A577DA448BC0718C19E3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17C4C60EAE97A882A4D51A622E400C1E /* Build configuration list for PBXNativeTarget "Dropper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF590F864BE9B84F3D6B0073D061F270 /* Debug */,
+				117AC46C778E25CB81015F37BD56E8FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C074F63C9EE7CB4D8C618390A32CEC35 /* Debug */,
+				E43846B588E1892F3093F3B7082B6DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B22DC939D187391042315573DBEE7623 /* Build configuration list for PBXNativeTarget "Cartography" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A4875CCC15711F355328D4D36BB210F /* Debug */,
+				9768FD27A4E2D1352ED646F0C41F0C60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4AE9EFE89FAA1E84B0BD2945CA45A56 /* Build configuration list for PBXNativeTarget "SwiftHTTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E75AE7106878A9460DA88802C93736 /* Debug */,
+				399D09ECBDD3E2198B1B4BD17FBC8DBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69BD3AEC9E5353AED6E24CFC50B8F15 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1D777E642911403AD15317DFEA5FCF2 /* Debug */,
+				4997AA69BC9F578DE5383B6CE3FCAEBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

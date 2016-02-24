@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ConstellationPro" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="设置个人信息：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xwc-b1-32M">
+                                <rect key="frame" x="10" y="30" width="119" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="vWl-7p-wzY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DJa-0W-2ci">
+                                <rect key="frame" x="28" y="94" width="105" height="30"/>
+                                <state key="normal" title="请选择你的星座"/>
+                                <connections>
+                                    <action selector="openDroper:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NhJ-3D-J6A"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FZg-Af-NZu">
+                                <rect key="frame" x="174" y="94" width="60" height="30"/>
+                                <state key="normal" title="预测范围"/>
+                                <connections>
+                                    <action selector="chooseRange:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QsZ-Nb-H7b"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B8m-Zg-DIY">
+                                <rect key="frame" x="285" y="285" width="30" height="30"/>
+                                <state key="normal" title="查询"/>
+                                <connections>
+                                    <action selector="searchCons:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aYc-ew-TCm"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ek6-9G-HVA">
+                                <rect key="frame" x="10" y="124" width="580" height="156"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ek6-9G-HVA" firstAttribute="top" secondItem="xwc-b1-32M" secondAttribute="bottom" constant="73" id="5R2-0y-JTu"/>
+                            <constraint firstItem="DJa-0W-2ci" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="28" id="Bzw-WT-aRF"/>
+                            <constraint firstItem="B8m-Zg-DIY" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Cy1-SS-Uz3"/>
+                            <constraint firstItem="xwc-b1-32M" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="GQQ-FA-N2A"/>
+                            <constraint firstItem="xwc-b1-32M" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="30" id="KJf-KT-K2i"/>
+                            <constraint firstItem="FZg-Af-NZu" firstAttribute="leading" secondItem="DJa-0W-2ci" secondAttribute="trailing" constant="41" id="ahQ-W5-oBr"/>
+                            <constraint firstItem="ek6-9G-HVA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="myZ-Kd-sFo"/>
+                            <constraint firstAttribute="trailing" secondItem="ek6-9G-HVA" secondAttribute="trailing" constant="10" id="nHX-Pl-0vS"/>
+                            <constraint firstItem="DJa-0W-2ci" firstAttribute="top" secondItem="xwc-b1-32M" secondAttribute="bottom" constant="43" id="pj6-HD-nwH"/>
+                            <constraint firstItem="B8m-Zg-DIY" firstAttribute="top" secondItem="ek6-9G-HVA" secondAttribute="bottom" constant="5" id="tCC-vF-G3Q"/>
+                            <constraint firstItem="B8m-Zg-DIY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yOT-nn-Hwz"/>
+                            <constraint firstItem="FZg-Af-NZu" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="74" id="z6u-i3-wX5"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Bzw-WT-aRF"/>
+                                <exclude reference="pj6-HD-nwH"/>
+                                <exclude reference="ahQ-W5-oBr"/>
+                                <exclude reference="z6u-i3-wX5"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="consRangeButton" destination="FZg-Af-NZu" id="E1W-WX-WkR"/>
+                        <outlet property="openDroperButton" destination="DJa-0W-2ci" id="boK-OC-9sc"/>
+                        <outlet property="tableView" destination="ek6-9G-HVA" id="aH8-hr-zvv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="142" y="210"/>
+        </scene>
+        <!--Pre View Controller-->
+        <scene sceneID="Tln-xp-XEz">
+            <objects>
+                <viewController storyboardIdentifier="preVC" id="Es1-KU-PSJ" customClass="PreViewController" customModule="ConstellationPro" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1hw-XA-YTR"/>
+                        <viewControllerLayoutGuide type="bottom" id="adl-SX-9ty"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="afp-Mo-xVP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="o4L-RZ-uWN">
+                                <rect key="frame" x="20" y="28" width="94" height="29"/>
+                            </stepper>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UvB-WA-Su1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="588" y="172"/>
+        </scene>
+    </scenes>
+</document>
